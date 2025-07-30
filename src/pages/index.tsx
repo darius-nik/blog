@@ -47,7 +47,7 @@ export default function Home({ articles: initialArticles }: Props) {
   return (
     <>
       <Head>
-        <title>وبلاگ هوشمند با Markdown + ChatGPT</title>
+        <title>وبلاگ هوشمند </title>
         <meta name="description" content="وبلاگ با قابلیت تولید مقاله با هوش مصنوعی و مارک‌داون" />
       </Head>
       
@@ -61,7 +61,7 @@ export default function Home({ articles: initialArticles }: Props) {
         
         <div className="max-w-6xl mx-auto px-4 relative z-10">
           <h1 className="text-4xl font-bold text-center mb-2 animate-fade-in-up">وبلاگ هوشمند</h1>
-          <p className="text-center text-primary-100 animate-fade-in-up animation-delay-200">با Markdown + ChatGPT</p>
+          <p className="text-center text-primary-100 animate-fade-in-up animation-delay-200">داریوش ابراهیمی نیک</p>
         </div>
       </header>
 
@@ -106,7 +106,7 @@ export default function Home({ articles: initialArticles }: Props) {
             <MarkdownEditor value={generated.content} readOnly />
             <div className="mt-4 p-4 bg-primary-50 rounded-lg border border-primary-200 animate-fade-in-up animation-delay-200">
               <p className="text-sm text-primary-700">
-                💡 این مقاله به صورت نمایشی تولید شده است. در نسخه واقعی می‌توانید به API ChatGPT متصل شوید.
+                این مقاله به صورت ازمایشی تولید شده و میتونید api هوش مصنوعی مورد نظر استفاده کنید (داریوش ابراهیمی نیک)
               </p>
             </div>
           </section>
